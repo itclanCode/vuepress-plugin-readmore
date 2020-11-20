@@ -16,6 +16,6 @@ module.exports = (options = {}, context) => ({
     return { ID, BlogID, Name, Qrcode, Keywrod };
   },
 
-  enhanceAppFiles: resolve(__dirname, 'enhanceAppFile.js'),
+  enhanceAppFiles: resolve(__dirname, './lib/enhanceAppFile.js'),
   globalUIComponents: 'readMore',
 });

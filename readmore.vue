@@ -9,13 +9,16 @@
   const btwPluginConfig = require("./lib/config");
   export default {
     name: "readMore",
+    props: {
+      id: '',
+      blogId: '',
+      name: '',
+      qrcode: '',
+      keyword: ''
+    },
     data() {
       return {
-        id: '',
-        blogId: '',
-        name: '',
-        qrcode: '',
-        keyword: ''
+        
       }
     },
 
