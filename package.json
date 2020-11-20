@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-readmore",
-  "version": "1.0.6",
+  "version": "0.0.1",
   "description": "vuepress-plugin-readmore 阅读更多 文章部分隐藏",
   "main": "index.js",
   "scripts": {
