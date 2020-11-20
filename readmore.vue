@@ -6,7 +6,6 @@
 
 <script>
   const readMore = require("./lib/readmore");
-  const btwPluginConfig = require("./lib/config");
   export default {
     name: "readMore",
     props: {
@@ -24,7 +23,7 @@
 
     mounted() {
       readMore();
-      btwPluginConfig(this.id, this.blogId, this.name, this.qrcode, this.keyword);
+      import('./lib/config')(this.id, this.blogId, this.name, this.qrcode, this.keyword)
     }
   }
 </script>
