@@ -1,7 +1,7 @@
 {
   "name": "vuepress-plugin-readmore",
   "version": "1.0.0",
-  "description": "vuepress-plugin-readmore 阅读更多 博客引流 解锁文章",
+  "description": "vuepress-plugin-readmore 阅读更多 文章部分隐藏",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,15 @@
     "url": "git+https://github.com/itclanCode/vuepress-plugin-readmore.git"
   },
   "keywords": [
-    "vuepress",
     "vuepress-plugin-readmore",
+    "vuepress-plugin",
+    "vuepress",
+    "readmore",
     "plugin",
-    "readmore"
+    "阅读更多",
+    "文章隐藏"
   ],
-  "author": "随笔川迹  itclanCoder 站点:http://itclan.cn/",
+  "author": "随笔川迹 itclancoder 站点:http://itclan.cn/",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/itclanCode/vuepress-plugin-readmore/issues"
