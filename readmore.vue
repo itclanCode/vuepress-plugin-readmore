@@ -5,12 +5,13 @@
 </template>
 
 <script>
-  const readMore = require("./readmore");
-  const btwPluginConfig = require("./config");
+  const readMore = require("./lib/readmore");
+  const btwPluginConfig = require("./lib/config");
   export default {
     name: "readMore",
     data() {
       return {
+        id: '',
         blogId: '',
         name: '',
         qrcode: '',
@@ -20,7 +21,7 @@
 
     mounted() {
       readMore();
-      btwPluginConfig(this.blogId, this.name, this.qrcode, this.keyword);
+      btwPluginConfig(this.id, this.blogId, this.name, this.qrcode, this.keyword);
     }
   }
 </script>
